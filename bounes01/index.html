@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mousa Al-Atoom | Profile Photo Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cyber-grid"></div>
+
+    <main class="container">
+        <section class="cyber-card">
+            <div class="card-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="title-bar">avatar_switcher.sh</span>
+            </div>
+
+            <div class="switcher-box">
+                <span class="badge">IDENTITY VERIFICATION</span>
+                <h2>Profile Image Switcher</h2>
+                <p class="subtitle">Toggle between profile avatars dynamically without page refresh.</p>
+
+                <div class="avatar-frame">
+                    <img id="avatar" src="assets/Profile.webp" alt="Default Profile Photo" class="profile-img">
+                </div>
+
+                <div class="info-status">
+                    CURRENT_MODE: <span id="photo-mode" class="highlight">PRIMARY_AVATAR</span>
+                </div>
+
+                <button id="switch-btn" class="cyber-btn primary">SWITCH_AVATAR</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

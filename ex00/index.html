@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mousa Al-Atoum | Network & Security Specialist</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Top Navigation / Controls -->
+    <nav class="navbar">
+      <span class="brand">Mousa.Sec</span>
+      <div class="controls">
+        <!-- Language Switcher -->
+        <button id="lang-toggle" class="nav-btn" aria-label="Toggle language">
+          🌐 <span id="lang-text">العربية</span>
+        </button>
+        <!-- Theme Switcher -->
+        <button id="theme-toggle" class="nav-btn" aria-label="Toggle theme">
+          <span id="theme-icon">🌙</span> <span id="theme-text">Dark</span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header / About Section -->
+    <header>
+      <div class="profile-header">
+        <!-- Profile Picture -->
+        <img src="assests/Profile.webp" alt="Mousa Al-Atoum" class="profile-img" onerror="this.src='https://via.placeholder.com/110?text=Mousa'">
+        
+        <div class="profile-details">
+          <span class="status-badge" data-key="status">● Information Security & Networks</span>
+          <h1 data-key="name">Mousa Mohammad Al-Atoum</h1>
+          <p class="subtitle" data-key="title">Information Security & Networks | Al-Balqa Applied University</p>
+        </div>
+      </div>
+
+      <p class="bio" data-key="bio">
+        Information Security and Networks practitione focused on network fundamentals, Active Directory administration, and Linux system defense. Applied experience in implementing administrative and technical controls for secure environments.
+      </p>
+
+      <div class="btn-group">
+        <a href="mailto:Mousaotoom012@gmail.com" class="btn btn-primary" data-key="emailBtn">Email Me</a>
+        <a href="https://wa.me/962776574316" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-key="waBtn">WhatsApp</a>
+      </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section>
+      <h2 class="section-title" data-key="skillsTitle">Skills & Knowledge Base</h2>
+      <div class="skill-grid">
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill1Name">Python Basics & Automation</div>
+          <div class="skill-level" data-key="skill1Level">Certified Coursework</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill2Name">Active Directory Fundamentals</div>
+          <div class="skill-level" data-key="skill2Level">Hands-on Lab Practice</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill3Name">Network Security Fundamentals</div>
+          <div class="skill-level" data-key="skill3Level">Academic & Lab Focus</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill4Name">Linux Systems (Kali Linux)</div>
+          <div class="skill-level" data-key="skill4Level">Basic Commands & Tools</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill5Name">Git & GitHub</div>
+          <div class="skill-level" data-key="skill5Level">Version Control Basics</div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name" data-key="skill6Name">Web Basics (HTML/CSS/JS)</div>
+          <div class="skill-level" data-key="skill6Level">Front-end Building</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section>
+      <h2 class="section-title" data-key="eduTitle">Education & Courses</h2>
+      
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title" data-key="degreeTitle">Associate Degree in Information Security & Networks</span>
+          <span class="card-subtitle" data-key="uniName">Al-Balqa Applied University</span>
+        </div>
+        <p class="card-text" data-key="degreeDesc">
+          Gained theoretical and foundational knowledge in network architecture, system administration, and cyber security principles.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title" data-key="courseTitle">Python Programming Course</span>
+          <span class="card-subtitle" data-key="courseCompany">Al-Raja Company</span>
+        </div>
+        <p class="card-text" data-key="courseDesc">
+          Completed coursework covering Python programming fundamentals, basic scripting, and logical problem-solving.
+        </p>
+      </div>
+    </section>
+
+    <!-- Practical Labs Section -->
+    <section>
+      <h2 class="section-title" data-key="projectsTitle">Hands-on Labs & Projects</h2>
+      
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title" data-key="lab1Title">Virtual Home Lab Setup (Active Directory & Kali Linux)</span>
+        </div>
+        <p class="card-text" data-key="lab1Desc">
+          Configured a basic virtual lab environment using VirtualBox to practice Active Directory domain configuration, basic user policies, and network scanning fundamentals.
+        </p>
+        <div class="tags">
+          <span class="tag">Active Directory</span>
+          <span class="tag">Windows Server</span>
+          <span class="tag">VirtualBox</span>
+          <span class="tag">Kali Linux</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title" data-key="lab2Title">Personal Portfolio Website</span>
+        </div>
+        <p class="card-text" data-key="lab2Desc">
+          Designed and built a clean, responsive web interface using HTML, CSS, and JavaScript, version-controlled with Git/GitHub.
+        </p>
+        <div class="tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p data-key="footerCopy">© Mousa Mohammad Al-Atoum · Jerash, Jordan</p>
+      <p class="footer-sub">Mousaotoom012@gmail.com | +962 7 7657 4316</p>
+    </footer>
+
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
