@@ -32,7 +32,7 @@ const translations = {
     lab1Desc: "Configured a basic virtual lab environment using VirtualBox to practice Active Directory domain configuration, basic user policies, and network scanning fundamentals.",
     lab2Title: "Personal Portfolio Website",
     lab2Desc: "Designed and built a clean, responsive web interface using HTML, CSS, and JavaScript, version-controlled with Git/GitHub.",
-    footerCopy: "© Mousa Mohammad Al-Atoum · Jerash, Jordan",
+    footerCopy: "© Mousa Mohammad Al-Atoum · Amman , Jordan",
     langButtonText: "العربية"
   },
   ar: {
@@ -66,8 +66,8 @@ const translations = {
     lab1Title: "إعداد مختبر افتراضي (Active Directory & Kali Linux)",
     lab1Desc: "بناء بيئة افتراضية باستخدام VirtualBox للتدريب على إعداد نطاق Active Directory، سياسات المستخدمين، وفحص الشبكات الأساسي.",
     lab2Title: "موقع البورتفوليو الشخصي",
-    lab2Desc: "تصميم وتطوير واجهة موقع شخصي منظمة ومريحة للعين باستعمال HTML وCSS وJavaScript مع رفع المشروع على GitHub.",
-    footerCopy: "© موسى محمد العتوم · جرش، الأردن",
+    lab2Desc: "تصميم وتطوير واجهة موقع شخصي منظمة باستعمال HTML وCSS وJavaScript مع رفع المشروع على GitHub.",
+    footerCopy: "© موسى محمد العتوم · عمان ، الأردن",
     langButtonText: "English"
   }
 };
